@@ -3,6 +3,9 @@ import CardItem from "./CardItem";
 import './Cards.css'
 import '../App.css'
 import imageTest from '../images/img-9.jpeg'
+import boog from '../images/DSCF0384.jpeg'
+import boog2 from '../images/DSCF0476.jpeg'
+import boog3 from '../images/DSCF0498.jpeg'
 
 
  function Cards(){
@@ -13,19 +16,19 @@ import imageTest from '../images/img-9.jpeg'
                 <div className="card_wrapper">
                     <ul className="cards_items">
                         <CardItem
-                        src={imageTest}
+                        src={boog}
                         text="Click Here"
                         label="Pictures"
                         path='/aboutus'
                         />
                         <CardItem
-                            src={'images/img-9.jpeg'}
+                            src={boog2}
                             text="Click Here"
                             label="Pictures"
                             path='/aboutus'
                         />
                         <CardItem
-                            src={'images/img-9.jpeg'}
+                            src={boog3}
                             text="Click Here"
                             label="Pictures"
                             path='/aboutus'

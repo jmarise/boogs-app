@@ -6,14 +6,15 @@ import '../App.css';
 function HeroSection() {
     return(
         <div className={'hero-container'}>
-            <h1>AK EVENTS</h1>
-            <p>PLAN YOUR NEXT PARTY</p>
+            <h1>BOOGIN LTD</h1>
+            <p>GET READY TO BOOG</p>
             <div className="hero-btns">
                 <Button className='btns' buttonStyle='btn--outline'
-    buttonSize='btn--large'>Plan Here!</Button>
-                <Button className='btns'
-                        buttonStyle='btn--primary'
-                        buttonSize='btn--large'>Learn More</Button>
+    buttonSize='btn--large'>Recording Sessions</Button>
+                <Button className='btns' buttonStyle='btn--outline'
+    buttonSize='btn--large'>Capital Boogs Music</Button>
+                <Button className='btns' buttonStyle='btn--outline'
+    buttonSize='btn--large'>Mastering Sessions</Button>
             </div>
 
         </div>

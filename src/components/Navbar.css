@@ -28,7 +28,7 @@
     align-items: center;
 }
 
-.fa-typo3 {
+.fa-regular fa-computer-speaker {
     margin-left: 0.5rem;
     font-size: 1.8rem;
 }
@@ -57,7 +57,7 @@
 }
 
 .nav-links:hover {
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid rgb(174, 15, 15);
     transition: all 0.2s ease-out;
 }
 
