@@ -22,7 +22,7 @@ function Navbar() {
     window.addEventListener('resize', showButton);
 
     return (
-        <><nav className="navbar">
+        <><nav className=" sticky h-24 bg-slate-200/50  top-0 shadow-md">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo">
                 <i class="fa-regular fa-computer-speaker"></i>
@@ -32,7 +32,7 @@ function Navbar() {
                     </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to="/home" className='nav-links'>
+                        <Link to="/home" className='text-2xl'>
                             Home
                         </Link>
                     </li>
@@ -42,7 +42,7 @@ function Navbar() {
                         </Link>
                     </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline'>Contact Us</Button>}
+                {button && <Button className='bg-slate-500' buttonStyle='btn--outline'>Contact Us</Button>}
 
 
 

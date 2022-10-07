@@ -1,4 +1,4 @@
-img {
+/*img {
     object-fit: contain;
     width: 50%;
     height: 50%;
@@ -7,7 +7,7 @@ img {
 }
 
 .hero-container {
-    /*background: url("../public/logo192.png") center center;*/
+    background: url("../public/logo192.png") center center;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -68,3 +68,4 @@ img {
             width: 100%  ;
         }
 }
+*/

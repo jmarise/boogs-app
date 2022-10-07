@@ -8,6 +8,7 @@ import boog2 from '../images/DSCF0476.jpeg'
 import boog3 from '../images/DSCF0498.jpeg'
 
 
+
  function Cards(){
     return (
         <div className="cards">

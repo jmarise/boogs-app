@@ -2,19 +2,20 @@ import React from "react";
 import {Button} from "./Button";
 import './HeroSection.css';
 import '../App.css';
+import league_video from "../images/LEAGUE-6oPUq74L6l4.mp4";
 
 function HeroSection() {
     return(
-        <div className={'hero-container'}>
-            <h1>BOOGIN LTD</h1>
-            <p>GET READY TO BOOG</p>
-            <div className="hero-btns">
-                <Button className='btns' buttonStyle='btn--outline'
-    buttonSize='btn--large'>Recording Sessions</Button>
-                <Button className='btns' buttonStyle='btn--outline'
-    buttonSize='btn--large'>Capital Boogs Music</Button>
-                <Button className='btns' buttonStyle='btn--outline'
-    buttonSize='btn--large'>Mastering Sessions</Button>
+
+        
+        <div className={' h-screen'}>
+            
+            
+            <div className=' w-full h-full  bg-black'>
+
+               <video className='h-full w-full' autoPlay muted loop >
+                <source src={league_video} type="video/mp4"/>
+                </video> 
             </div>
 
         </div>
