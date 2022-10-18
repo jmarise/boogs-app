@@ -8,12 +8,12 @@ function HeroSection() {
     return(
 
         
-        <div className={' h-screen'}>
+        <div className={'h-1/2 bg-boog-black  flex justify-center items-center'}>
             
             
-            <div className=' w-full h-full  bg-black'>
+            <div className=' '>
 
-               <video className='h-full w-full' autoPlay muted loop >
+               <video className=' w-full border-black border-2 rounded-sm shadow shadow-boog-blue' autoPlay muted loop >
                 <source src={league_video} type="video/mp4"/>
                 </video> 
             </div>

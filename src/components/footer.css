@@ -1,4 +1,4 @@
-.footer-container{
+/*.footer-container{
     background: #252e48;
     padding: 4rem 0 2rem 0;
     display: flex;
@@ -71,7 +71,7 @@
     color:white;
     transition: 0.3s ease-out;
 
-}*/
+}
 .footer-email-form>h2{
     margin-bottom: 32px;
 }
@@ -139,4 +139,4 @@
     .social-media-wrap{
         flex-direction: column;
     }
-}
+}*/

@@ -22,7 +22,7 @@ function Navbar() {
     window.addEventListener('resize', showButton);
 
     return (
-        <><nav className=" sticky h-24 bg-slate-200/50  top-0 shadow-md">
+        <><nav className=" sticky h-24 bg-boog-black-v2 text-white top-0 shadow-md rounded-b">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo">
                 <i class="fa-regular fa-computer-speaker"></i>
