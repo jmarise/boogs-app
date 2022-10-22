@@ -9,17 +9,17 @@ import ContactUs from "./components/pages/contactus";
 function App() {
   return (
     <>
-      <div className="bg-boog-black h-screen overflow-hidden">
+      <div className="bg-boog-black h-screen">
     <Router>
     
         <Navbar/>
-        <div className="h-full overflow-auto">
+        
         <Switch>
             <Route path ="/" exact component={Home} />
             <Route path ='/aboutus' component={AboutUs}/>
             <Route path='/contactus' component={ContactUs}/>
         </Switch>
-        </div>
+        
         <Footer />
         
     </Router>

@@ -6,7 +6,7 @@ import './Navbar.css';
 
 function Navbar() {
 
-    const [button, setButton] = useState(true);
+   const [button, setButton] = useState(true);
     const [click, setClick]= useState(false);
     const handleClick = () => setClick(!click);
     const showButton = () =>{
@@ -22,8 +22,8 @@ function Navbar() {
     window.addEventListener('resize', showButton);
 
     return (
-        <><div className=" sticky bg-boog-black-v2 text-white top-0 shadow-md rounded-b">
-            <div className="flex  justify-evenly navbar-container">
+        <><div className=" sticky w-full h-16 bg-boog-black-v2 text-white top-0 shadow-lg shadow-black rounded-b">
+            <div className="flex  items-center w-full">
                 <Link to="/" className="navbar-logo">
                 <i class="fa-regular fa-computer-speaker"></i>
                 </Link>
@@ -32,7 +32,7 @@ function Navbar() {
                     </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to="/home" className='text-2xl'>
+                        <Link to="/" className='text-2xl'>
                             Home
                         </Link>
                     </li>
@@ -46,6 +46,29 @@ function Navbar() {
 
 
 
+            </div>
+            <div className=' fixed inset-y-0 right-0 h-16 w-60 border-l-2 border-boog-black text-boog-blue flex justify-evenly items-center'>
+            
+                        <Link className="social-icon-link instagram" to={'/'} target={"_blank"} aria-label={'Instagram'}>
+                            <i className="fab fa-instagram fa-xl"/>
+
+                        </Link>
+                        <Link className="social-icon-link twitter" to={'/'} target={"_blank"} aria-label={'Twitter'}>
+                            <i className="fab fa-twitter fa-xl"/>
+
+                        </Link>
+                        <Link className="social-icon-link spotify" to={'/'} target={"_blank"} aria-label={'Twitter'}>
+                            <i className="fab fa-spotify fa-xl"/>
+
+                        </Link>
+                        <Link className="social-icon-link apple" to={'/'} target={"_blank"} aria-label={'Twitter'}>
+                            <i className="fab fa-apple fa-xl"/>
+
+                        </Link>
+                        <Link className="social-icon-link sound-cloud" to={'/'} target={"_blank"} aria-label={'Twitter'}>
+                            <i className="fab fa-soundcloud fa-xl"/>
+
+                        </Link>
             </div>
         </div> </>
     )

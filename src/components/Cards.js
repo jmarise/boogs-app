@@ -11,7 +11,7 @@ import boog3 from '../images/DSCF0498.jpeg'
 
  function Cards(){
     return (
-        <div className="sticky cards bg-boog-black-v2 ">
+        <div className="sticky cards  ">
             <h1>Check out these Events We have Planned in the Past!</h1>
             <div className="cards_container  ">
                 <div className="card_wrapper">
