@@ -5,7 +5,7 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.home,
+/*.home,
 .aboutus
 .contactus{
   display: flex;
@@ -29,8 +29,8 @@
 }
 
 .home {
-  background:  no-repeat center;
+  background:  repeat center;
 
   color: pink;
   font-size: 100px;
-}
+}*/

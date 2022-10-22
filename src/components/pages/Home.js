@@ -6,12 +6,10 @@ import Footer from "../Footer";
 
 function Home (){
     return(
-        <div div className="h-screen ">
-        
+       <>
             <HeroSection />
             <Cards />
-            <Footer />
-        </div>
+          </>  
     )
 }
 export default Home

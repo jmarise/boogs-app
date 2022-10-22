@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 
 function Footer(){
     return(
-        <div className='bg-boog-black text-white'>
+        <footer className=' flex flex-row bg-boog-black  text-white fixed bottom-0  w-full h-24'>
             <section className="footer-subscription">
                 <p className='footer-subscription-heading'>
                   Join the Newsletter!!
@@ -59,7 +59,7 @@ function Footer(){
                     </div>
                 </div>
             </section>
-        </div>
+        </footer>
     )
 }
 export default Footer

@@ -22,8 +22,8 @@ function Navbar() {
     window.addEventListener('resize', showButton);
 
     return (
-        <><nav className=" sticky h-24 bg-boog-black-v2 text-white top-0 shadow-md rounded-b">
-            <div className="navbar-container">
+        <><div className=" sticky bg-boog-black-v2 text-white top-0 shadow-md rounded-b">
+            <div className="flex  justify-evenly navbar-container">
                 <Link to="/" className="navbar-logo">
                 <i class="fa-regular fa-computer-speaker"></i>
                 </Link>
@@ -42,12 +42,12 @@ function Navbar() {
                         </Link>
                     </li>
                 </ul>
-                {button && <Button className='bg-slate-500' buttonStyle='btn--outline'>Contact Us</Button>}
+                {button && <Button  >Contact Us</Button>}
 
 
 
             </div>
-        </nav> </>
+        </div> </>
     )
 
 
