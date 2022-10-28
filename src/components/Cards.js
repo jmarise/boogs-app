@@ -3,7 +3,7 @@ import CardItem from "./CardItem";
 import './Cards.css'
 import '../App.css'
 import imageTest from '../images/img-9.jpeg'
-import boog from '../images/DSCF0384.jpeg'
+import boog from '../images/patsycorner.jpg'
 import boog2 from '../images/DSCF0476.jpeg'
 import boog3 from '../images/DSCF0498.jpeg'
 
@@ -17,7 +17,7 @@ import boog3 from '../images/DSCF0498.jpeg'
                     <ul className="cards_items flex flex-row justify-evenly">
                         <CardItem
                         src={boog}
-                        text="Click Here"
+                        text= "PATSY MIXING & MASTERING"
                         label="Pictures"
                         path='/aboutus'
                         />
