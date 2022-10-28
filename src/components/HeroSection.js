@@ -2,7 +2,7 @@ import React from "react";
 import {Button} from "./Button";
 import './HeroSection.css';
 import '../App.css';
-import league_video from "../images/LEAGUE-6oPUq74L6l4.mp4";
+import league_video from "../images/Main vid.MOV";
 
 function HeroSection() {
     return(
