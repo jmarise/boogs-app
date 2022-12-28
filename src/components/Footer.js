@@ -88,16 +88,14 @@ return (
 		<Row>
 		<Column>
 			<Heading>About Us</Heading>
-			<FooterLink href="#">Aim</FooterLink>
 			<FooterLink href="#">Vision</FooterLink>
-			<FooterLink href="#">Testimonials</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Services</Heading>
-			<FooterLink href="#">Writing</FooterLink>
-			<FooterLink href="#">Internships</FooterLink>
-			<FooterLink href="#">Coding</FooterLink>
-			<FooterLink href="#">Teaching</FooterLink>
+			<FooterLink href="#">Capital Boogs Music</FooterLink>
+			<FooterLink href="#">Lil Canada Beats</FooterLink>
+			<FooterLink href="#">Patsy's Corner</FooterLink>
+			<FooterLink href="#">Sunboy Corner</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Contact Us</Heading>
