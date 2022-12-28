@@ -37,7 +37,7 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="https://solo.to/capitalboogs" className='nav-links'>
+                        <Link to="https://www.solo.to/capitalboogs" className='nav-links'>
                             About Us
                         </Link>
                     </li>

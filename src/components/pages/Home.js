@@ -10,6 +10,7 @@ function Home (){
        <div className="h-full bg-boog-black "> 
             <HeroSection />
             <Cards />
+            <Footer />
         </div>
           </>  
     )
