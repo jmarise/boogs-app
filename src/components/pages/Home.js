@@ -7,12 +7,9 @@ import Footer from "../Footer";
 function Home (){
     return(
         <>
-       <div className="h-full bg-boog-black "> 
-            <HeroSection />
-            <Cards />
-            <Footer />
-        </div>
-          </>  
+       <HeroSection/>
+            <Footer/>
+          </>
     )
 }
 export default Home

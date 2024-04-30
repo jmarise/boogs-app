@@ -9,5 +9,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="email" level="application" />
+    <orderEntry type="library" name="all" level="application" />
+    <orderEntry type="library" name="@tsparticles/preset-firefly" level="application" />
   </component>
 </module>

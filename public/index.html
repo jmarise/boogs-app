@@ -9,8 +9,15 @@
     <link href="./style/tailwind.css" rel="stylesheet">
     <meta
       name="description"
-      content="Web site created using create-react-app"
-    />
+      content="Web site created using create-react-app"/>
+      <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.1.0/email.min.js"
+      ></script>
+    <script type="text/javascript">
+      (function (){
+        emailjs.init("%REACT_APP_EMAILJS_USERID%")
+      })();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-firefly@3/tsparticles.preset.firefly.bundle.min.js"></script>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a

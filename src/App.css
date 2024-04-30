@@ -1,11 +1,10 @@
-/* {
+{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'PT Sans', sans-serif;
 }
-
-/*.home,
+.home,
 .aboutus
 .contactus{
   display: flex;
@@ -33,4 +32,4 @@
 
   color: pink;
   font-size: 100px;
-}*/
+}

@@ -1,8 +1,8 @@
-/*.footer-container{
+.footer-container{
     background: #252e48;
     padding-bottom: 60px;
     display: flex;
-    height: calc(100%-60px);
+    height: 20px;
     flex-direction: column;
     justify-content: center;
     align-self: center;
@@ -58,7 +58,7 @@
     width: 100%;
     box-sizing: border-box;
 }
-/*.footer-link-items >h2{
+.footer-link-items >h2{
     margin-bottom: 16px;
 
 }
@@ -140,4 +140,4 @@
     .social-media-wrap{
         flex-direction: column;
     }
-}*/
+}

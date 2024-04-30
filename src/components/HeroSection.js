@@ -1,26 +1,28 @@
 import React from "react";
-import {Button} from "./Button";
 import './HeroSection.css';
 import '../App.css';
-import league_video from "../images/Main vid.MOV";
+import Cards from "./Cards";
 
 function HeroSection() {
     return(
-
-        
-        <div className={'bg-boog-black flex justify-center items-center h-1/2'}>
-            
-            
-            <div className=' '>
-
-               <video className=' w-full aspect-video border-black border-2 rounded-sm shadow shadow-boog-blue' autoPlay muted loop >
-                <source src={league_video} type="video/mp4"/>
-                </video> 
-            </div>
-
+        <>
+        <div className={'bg-boog-black flex justify-center items-center'}>
+            <div className='youtube-video'>
+                {/* YouTube video embed */}
+                <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/pvJj4Z5k89w?autoplay=1&mute=1"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                ></iframe>
+<Cards/>
         </div>
-
-    )
-
+        </div>
+            </>
+    );
 }
-export default HeroSection
+
+export default HeroSection;

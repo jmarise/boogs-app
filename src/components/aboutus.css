@@ -1,0 +1,45 @@
+/* AboutUs.css */
+.about-us-container {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.image-container{
+    width: auto;
+    height: auto;
+    margin: auto;
+
+}
+.about-us-container h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about-us-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: rgba(21, 63, 140, 0.78);
+}
+
+.about-us-container a {
+    color: #007bff; /* Adjust link color as needed */
+    text-decoration: none;
+}
+
+
+.about-us-container a:hover {
+    text-decoration: underline;
+}
+.canny-image{
+    width: 300px;
+    height: 300px;
+    border: #ff6f2d;
+
+}
+
+.king-boog-image {
+    width: 300px;
+    height: 300px;
+    border: #ff6f2d;
+}

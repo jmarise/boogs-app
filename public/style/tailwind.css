@@ -61,7 +61,9 @@ body {
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
 3. Ensure horizontal rules are visible by default.
 */
-
+label {
+  color: #007bff;
+}
 hr {
   height: 0;
   /* 1 */
@@ -162,13 +164,12 @@ sup {
 */
 
 table {
-  text-indent: 0;
-  /* 1 */
-  border-color: inherit;
-  /* 2 */
   border-collapse: collapse;
-  /* 3 */
+  width: 100%;
+  max-width: 500px; /* Adjust maximum width as needed */
+  margin: 0 auto; /* Center the table */
 }
+
 
 /*
 1. Change the font styles in all browsers.
@@ -181,20 +182,23 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
+  font-family: inherit ;
   /* 1 */
   font-size: 100%;
+  color: #4CAF50;
   /* 1 */
   font-weight: inherit;
   /* 1 */
   line-height: inherit;
+  width: 100%;
+  max-width: 500px;
   /* 1 */
-  color: inherit;
   /* 1 */
-  margin: 0;
   /* 2 */
-  padding: 0;
   /* 3 */
+}
+.submit-btn:hover {
+  background-color: #0056b3;
 }
 
 /*
@@ -215,13 +219,14 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-  -webkit-appearance: button;
+  -webkit-appearance: push-button;
   /* 1 */
-  background-color: transparent;
+  background-color: crimson;
   /* 2 */
   background-image: none;
   /* 2 */
 }
+
 
 /*
 Use the modern Firefox focus style for all focusable elements.
@@ -392,9 +397,9 @@ audio,
 iframe,
 embed,
 object {
-  display: block;
+  display: inline-flex;
   /* 1 */
-  vertical-align: middle;
+  vertical-align: center;
   /* 2 */
 }
 
